@@ -1,5 +1,5 @@
 <?php
-
+namespace Core;
 class Validator
 {
     //pure function - not dependent on anything
