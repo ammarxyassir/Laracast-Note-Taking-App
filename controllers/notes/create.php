@@ -22,6 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ]);
     }
 
+    header("location: /notes");
 }
 
 view('notes/create.view.php', [
